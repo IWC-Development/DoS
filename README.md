@@ -6,4 +6,4 @@
 
 <p style="text-align: center;"><img src="https://img.shields.io/badge/Projeto-Open%20Source-green.svg" alt="" width="130" height="20" /></p>
 
-<p style="text-align: center;"><span style="color: #99cc00;"><strong>Como iniciar o ataque: perl DoS [IP] [PORT] [PACOTES] [SEGUNDOS]</strong></span></p>
+<p style="text-align: center;"><strong>Como iniciar o ataque: perl DoS [IP] [PORT] [PACOTES] [SEGUNDOS]</strong></span></p>
