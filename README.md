@@ -1,9 +1,9 @@
-#Versão 1 [Beta]
+#
 
 ![](https://cdn.discordapp.com/attachments/473651286286532630/474324016283254805/opensource.png)
 
 ------------
 
-<center> ![](https://img.shields.io/badge/Projeto-Open%20Source-green.svg) </center>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Projeto-Open%20Source-green.svg" alt="" width="130" height="20" /></p>
 
-<center>**Como iniciar o ataque: perl DoS [IP] [PORT] [PACOTES] [SEGUNDOS]** </center>
+<p style="text-align: center;"><span style="color: #99cc00;"><strong>Como iniciar o ataque: perl DoS [IP] [PORT] [PACOTES] [SEGUNDOS]</strong></span></p>
